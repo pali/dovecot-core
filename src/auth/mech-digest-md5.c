@@ -106,8 +106,8 @@ static string_t *get_digest_challenge(struct digest_auth_request *request)
 	}
 	str_append(str, "\",");
 
-	str_append(str, "charset=\"utf-8\","
-		   "algorithm=\"md5-sess\"");
+	str_append(str, "charset=utf-8,"
+		   "algorithm=md5-sess");
 	return str;
 }
 
